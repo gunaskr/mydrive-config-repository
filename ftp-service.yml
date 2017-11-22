@@ -1,0 +1,14 @@
+ftp:
+  local:
+    resource:
+      path: c:/ftp_files/
+  remote:
+    resource:
+      path: /upload
+  server:
+    user:
+      name: foo
+      pwd: pass
+    host:
+      name: localhost
+      port: 22
